@@ -1,3 +1,26 @@
-body{
-    background-color: aqua;
+.app {
+background-image: url(../../static/assets/images/weekly\ goal\ images/bluenote.jpg);
+}
+
+h1 {
+    text-align: center;
+    width: 401.1px;
+    text-shadow: 1px 1px 2px rgb(239, 239, 239), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 255, 255);
+    margin-top: 25px;
+    background-color: rgb(70, 104, 227);
+    font-size: 1.5em;
+}
+
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    & img {
+        margin-top: 5px;
+        width: 401.1px; 
+        position: relative;
+    }
 }
