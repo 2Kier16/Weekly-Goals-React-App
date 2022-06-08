@@ -8,7 +8,7 @@ import notes from "../../static/assets/images/weekly goal images/music.jpg";
 export default class App extends Component {
   render() {
     return (
-      <div className="app body">
+      <div className="app background">
         <div className="text-content">
           <h1>Kier's List of Fav Artist & Songs</h1>
           <img src={notes} />

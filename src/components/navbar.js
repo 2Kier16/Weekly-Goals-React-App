@@ -7,6 +7,9 @@ export default function NavBar() {
     <div className="navbar">
       <div className="navigation-links">
         <NavLink className="nav" exact to="/">
+          Home
+        </NavLink>
+        <NavLink className="nav" to="/Artist">
           Artist
         </NavLink>
         <NavLink className="nav" to="/Songs">
