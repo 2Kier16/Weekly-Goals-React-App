@@ -5,7 +5,7 @@ export default function Songs() {
     <div className="fav-songs">
       <div className="songs-list">
         <div className="list-item">
-          <h1>song and album</h1>
+          <h1>song and album1</h1>
         </div>
       </div>
     </div>
